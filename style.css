@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    font-family:"marcellus";
+    font-weight: bolder;
+    color: white;
+}
+.header {
+    background-color: rgb(5, 6, 68);
+    border: double white;
+}
+@font-face {
+    font-family: "marcellus";
+    src: url("MarcellusSC-Regular.ttf");
+}
+body {
+    text-align: center;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#BAE1E0;
+}
+.abc {
+    padding-top: 40px;
+}
+input{
+    width: 400px;
+}
+.butn {
+    background-color: rgb(2, 20, 48);
+    margin-left: 10px;
+    margin-top: 15px;
+    border: ridge white;
+    color:white;
+    width: 200px;
+    font-family: 'marcellus';
+}
+.lst {
+    margin-top: 20px;
+    text-align: center;
+    list-style-type: decimal;
+    margin-bottom: 10px;
+}
+.list {
+    margin-bottom:50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style-type: decimal;
+}
+.btnn {
+    margin-left: 20px;
+    background-color: rgb(81, 136, 240) ;
+    border: 2px solid rgb(2, 20, 48);
+    border-radius: 3px;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
